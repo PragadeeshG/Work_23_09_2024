@@ -1,0 +1,15 @@
+create table if not exists national_benefactor_calling_code_account_response(
+dial_id Integer not null,
+dial_owner varchar(255) null,
+active_account char null,
+dial_type_id Integer null,
+dial_type varchar(255) null,
+dial_status varchar(255) null,
+dial_description Integer null,
+authorizer_count Integer null,
+auth_country varchar(255) null,
+auth_region_code Integer null,
+exceptions varchar(255) null,
+status varchar(255) null,
+remarks varchar(255) null,
+constraint national_benefactor_calling_code_account_response_pk primary key(dial_id));

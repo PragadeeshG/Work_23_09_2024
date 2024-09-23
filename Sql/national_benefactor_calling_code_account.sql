@@ -1,0 +1,16 @@
+create table if not exists national_benefactor_calling_code_account(
+record_key Integer not null,
+benefactor_calling_code Integer null,
+benefactor_calling_code_position varchar(255) null,
+benefactor_calling_code_length varchar(255) null,
+dial_digits_position varchar(255) null,
+dial_digits_length varchar(255) null,
+dial_code_alternate_position char null,
+dial_code_alternate_length varchar(255) null,
+required_position varchar(255) null,
+required_length varchar(255) null,
+country_code varchar(255) null,
+country_desc varchar(255) null,
+country_directory varchar(255) null,
+data_sourced_from varchar(255) null,
+constraint national_benefactor_calling_code_account_pk primary key(record_key));
